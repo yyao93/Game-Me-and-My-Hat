@@ -5,13 +5,11 @@ Engine::Engine() {
   Vector2f resolution;
   resolution.x = VideoMode::getDesktopMode().width;
   resolution.y = VideoMode::getDesktopMode().height;
-  m_window.create(VideoMode(resolution.x * 2, resolution.y * 2), "Me2D");
+  m_window.create(VideoMode(resolution.x, resolution.y), "Me2D");
   // Initialize the views
   m_MainView.setSize(resolution);
   m_LeftView.setViewport(FloatRect(0.001f, 0.001f, 0.498f, 0.998f));
   m_RightView.setViewport(FloatRect(0.5f, 0.001f, 0.499f, 0.998f));
-  m_BGLeftView.setViewport(FloatRect(0.001f, 0.001f, 0.498f, 0.998f));
-  m_BGRightView.setViewport(FloatRect(0.5f, 0.001f, 0.499f, 0.998f));
   // Now set m_BackgroundSprite, m_BackgroundTexture
   // I need to change the following soon
   m_BackgroundTexture = TextureHolder::GetTexture(full_path("../resources/graphics/background.png"));

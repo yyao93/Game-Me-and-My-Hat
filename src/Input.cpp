@@ -11,11 +11,16 @@ void Engine::input() {
       // Start
       if (Keyboard::isKeyPressed(Keyboard::Return)) {
         m_Playing = true;
+        m_Starting = false;
       }
       // Switch between full and split Screen
       if (Keyboard::isKeyPressed(Keyboard::E)) {
         m_SplitScreen = !m_SplitScreen;
       }
     }
+  }
+  if (m_Player_1.handleInput()) {
+  }
+  if (m_Player_2.handleInput()) {
   }
 }
