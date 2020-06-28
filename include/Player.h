@@ -18,6 +18,7 @@ public:
   FloatRect getPosition();
   Sprite getSprite();
   Vector2f getCenter();
+  float getRotation();
   void update(float elapsedTime); // this function is called every frame
 };
 
