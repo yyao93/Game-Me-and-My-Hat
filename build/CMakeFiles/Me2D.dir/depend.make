@@ -7,6 +7,7 @@ CMakeFiles/Me2D.dir/src/Draw.cpp.o: ../include/Player_1.h
 CMakeFiles/Me2D.dir/src/Draw.cpp.o: ../include/Player_2.h
 CMakeFiles/Me2D.dir/src/Draw.cpp.o: ../include/TextureHolder.h
 CMakeFiles/Me2D.dir/src/Draw.cpp.o: ../include/fullpath.h
+CMakeFiles/Me2D.dir/src/Draw.cpp.o: ../include/para.h
 CMakeFiles/Me2D.dir/src/Draw.cpp.o: ../src/Draw.cpp
 CMakeFiles/Me2D.dir/src/Draw.cpp.o: /usr/local/include/SFML/Config.hpp
 CMakeFiles/Me2D.dir/src/Draw.cpp.o: /usr/local/include/SFML/Graphics.hpp
@@ -89,6 +90,7 @@ CMakeFiles/Me2D.dir/src/Engine.cpp.o: ../include/Player_1.h
 CMakeFiles/Me2D.dir/src/Engine.cpp.o: ../include/Player_2.h
 CMakeFiles/Me2D.dir/src/Engine.cpp.o: ../include/TextureHolder.h
 CMakeFiles/Me2D.dir/src/Engine.cpp.o: ../include/fullpath.h
+CMakeFiles/Me2D.dir/src/Engine.cpp.o: ../include/para.h
 CMakeFiles/Me2D.dir/src/Engine.cpp.o: ../src/Engine.cpp
 CMakeFiles/Me2D.dir/src/Engine.cpp.o: /usr/local/include/SFML/Config.hpp
 CMakeFiles/Me2D.dir/src/Engine.cpp.o: /usr/local/include/SFML/Graphics.hpp
@@ -171,6 +173,7 @@ CMakeFiles/Me2D.dir/src/Input.cpp.o: ../include/Player_1.h
 CMakeFiles/Me2D.dir/src/Input.cpp.o: ../include/Player_2.h
 CMakeFiles/Me2D.dir/src/Input.cpp.o: ../include/TextureHolder.h
 CMakeFiles/Me2D.dir/src/Input.cpp.o: ../include/fullpath.h
+CMakeFiles/Me2D.dir/src/Input.cpp.o: ../include/para.h
 CMakeFiles/Me2D.dir/src/Input.cpp.o: ../src/Input.cpp
 CMakeFiles/Me2D.dir/src/Input.cpp.o: /usr/local/include/SFML/Config.hpp
 CMakeFiles/Me2D.dir/src/Input.cpp.o: /usr/local/include/SFML/Graphics.hpp
@@ -248,6 +251,7 @@ CMakeFiles/Me2D.dir/src/Input.cpp.o: /usr/local/include/SFML/Window/WindowHandle
 CMakeFiles/Me2D.dir/src/Input.cpp.o: /usr/local/include/SFML/Window/WindowStyle.hpp
 
 CMakeFiles/Me2D.dir/src/Player.cpp.o: ../include/Player.h
+CMakeFiles/Me2D.dir/src/Player.cpp.o: ../include/para.h
 CMakeFiles/Me2D.dir/src/Player.cpp.o: ../src/Player.cpp
 CMakeFiles/Me2D.dir/src/Player.cpp.o: /usr/local/include/SFML/Config.hpp
 CMakeFiles/Me2D.dir/src/Player.cpp.o: /usr/local/include/SFML/Graphics.hpp
@@ -327,6 +331,7 @@ CMakeFiles/Me2D.dir/src/Player.cpp.o: /usr/local/include/SFML/Window/WindowStyle
 CMakeFiles/Me2D.dir/src/Player_1.cpp.o: ../include/Player.h
 CMakeFiles/Me2D.dir/src/Player_1.cpp.o: ../include/Player_1.h
 CMakeFiles/Me2D.dir/src/Player_1.cpp.o: ../include/TextureHolder.h
+CMakeFiles/Me2D.dir/src/Player_1.cpp.o: ../include/para.h
 CMakeFiles/Me2D.dir/src/Player_1.cpp.o: ../src/Player_1.cpp
 CMakeFiles/Me2D.dir/src/Player_1.cpp.o: /usr/local/include/SFML/Config.hpp
 CMakeFiles/Me2D.dir/src/Player_1.cpp.o: /usr/local/include/SFML/Graphics.hpp
@@ -406,6 +411,7 @@ CMakeFiles/Me2D.dir/src/Player_1.cpp.o: /usr/local/include/SFML/Window/WindowSty
 CMakeFiles/Me2D.dir/src/Player_2.cpp.o: ../include/Player.h
 CMakeFiles/Me2D.dir/src/Player_2.cpp.o: ../include/Player_2.h
 CMakeFiles/Me2D.dir/src/Player_2.cpp.o: ../include/TextureHolder.h
+CMakeFiles/Me2D.dir/src/Player_2.cpp.o: ../include/para.h
 CMakeFiles/Me2D.dir/src/Player_2.cpp.o: ../src/Player_2.cpp
 CMakeFiles/Me2D.dir/src/Player_2.cpp.o: /usr/local/include/SFML/Config.hpp
 CMakeFiles/Me2D.dir/src/Player_2.cpp.o: /usr/local/include/SFML/Graphics.hpp
@@ -565,6 +571,7 @@ CMakeFiles/Me2D.dir/src/Update.cpp.o: ../include/Player_1.h
 CMakeFiles/Me2D.dir/src/Update.cpp.o: ../include/Player_2.h
 CMakeFiles/Me2D.dir/src/Update.cpp.o: ../include/TextureHolder.h
 CMakeFiles/Me2D.dir/src/Update.cpp.o: ../include/fullpath.h
+CMakeFiles/Me2D.dir/src/Update.cpp.o: ../include/para.h
 CMakeFiles/Me2D.dir/src/Update.cpp.o: ../src/Update.cpp
 CMakeFiles/Me2D.dir/src/Update.cpp.o: /usr/local/include/SFML/Config.hpp
 CMakeFiles/Me2D.dir/src/Update.cpp.o: /usr/local/include/SFML/Graphics.hpp
@@ -650,6 +657,7 @@ CMakeFiles/Me2D.dir/src/main.cpp.o: ../include/Player_1.h
 CMakeFiles/Me2D.dir/src/main.cpp.o: ../include/Player_2.h
 CMakeFiles/Me2D.dir/src/main.cpp.o: ../include/TextureHolder.h
 CMakeFiles/Me2D.dir/src/main.cpp.o: ../include/fullpath.h
+CMakeFiles/Me2D.dir/src/main.cpp.o: ../include/para.h
 CMakeFiles/Me2D.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/Me2D.dir/src/main.cpp.o: /usr/local/include/SFML/Config.hpp
 CMakeFiles/Me2D.dir/src/main.cpp.o: /usr/local/include/SFML/Graphics.hpp

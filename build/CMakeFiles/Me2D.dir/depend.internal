@@ -8,6 +8,7 @@ CMakeFiles/Me2D.dir/src/Draw.cpp.o
  /Users/yianyao/Desktop/Game-Me2D/include/Player_2.h
  /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
  /Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
+ /Users/yianyao/Desktop/Game-Me2D/include/para.h
  /Users/yianyao/Desktop/Game-Me2D/src/Draw.cpp
  /usr/local/include/SFML/Config.hpp
  /usr/local/include/SFML/Graphics.hpp
@@ -90,6 +91,7 @@ CMakeFiles/Me2D.dir/src/Engine.cpp.o
  /Users/yianyao/Desktop/Game-Me2D/include/Player_2.h
  /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
  /Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
+ /Users/yianyao/Desktop/Game-Me2D/include/para.h
  /Users/yianyao/Desktop/Game-Me2D/src/Engine.cpp
  /usr/local/include/SFML/Config.hpp
  /usr/local/include/SFML/Graphics.hpp
@@ -172,6 +174,7 @@ CMakeFiles/Me2D.dir/src/Input.cpp.o
  /Users/yianyao/Desktop/Game-Me2D/include/Player_2.h
  /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
  /Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
+ /Users/yianyao/Desktop/Game-Me2D/include/para.h
  /Users/yianyao/Desktop/Game-Me2D/src/Input.cpp
  /usr/local/include/SFML/Config.hpp
  /usr/local/include/SFML/Graphics.hpp
@@ -249,6 +252,7 @@ CMakeFiles/Me2D.dir/src/Input.cpp.o
  /usr/local/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/Me2D.dir/src/Player.cpp.o
  /Users/yianyao/Desktop/Game-Me2D/include/Player.h
+ /Users/yianyao/Desktop/Game-Me2D/include/para.h
  /Users/yianyao/Desktop/Game-Me2D/src/Player.cpp
  /usr/local/include/SFML/Config.hpp
  /usr/local/include/SFML/Graphics.hpp
@@ -328,6 +332,7 @@ CMakeFiles/Me2D.dir/src/Player_1.cpp.o
  /Users/yianyao/Desktop/Game-Me2D/include/Player.h
  /Users/yianyao/Desktop/Game-Me2D/include/Player_1.h
  /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
+ /Users/yianyao/Desktop/Game-Me2D/include/para.h
  /Users/yianyao/Desktop/Game-Me2D/src/Player_1.cpp
  /usr/local/include/SFML/Config.hpp
  /usr/local/include/SFML/Graphics.hpp
@@ -407,6 +412,7 @@ CMakeFiles/Me2D.dir/src/Player_2.cpp.o
  /Users/yianyao/Desktop/Game-Me2D/include/Player.h
  /Users/yianyao/Desktop/Game-Me2D/include/Player_2.h
  /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
+ /Users/yianyao/Desktop/Game-Me2D/include/para.h
  /Users/yianyao/Desktop/Game-Me2D/src/Player_2.cpp
  /usr/local/include/SFML/Config.hpp
  /usr/local/include/SFML/Graphics.hpp
@@ -566,6 +572,7 @@ CMakeFiles/Me2D.dir/src/Update.cpp.o
  /Users/yianyao/Desktop/Game-Me2D/include/Player_2.h
  /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
  /Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
+ /Users/yianyao/Desktop/Game-Me2D/include/para.h
  /Users/yianyao/Desktop/Game-Me2D/src/Update.cpp
  /usr/local/include/SFML/Config.hpp
  /usr/local/include/SFML/Graphics.hpp
@@ -651,6 +658,7 @@ CMakeFiles/Me2D.dir/src/main.cpp.o
  /Users/yianyao/Desktop/Game-Me2D/include/Player_2.h
  /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
  /Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
+ /Users/yianyao/Desktop/Game-Me2D/include/para.h
  /Users/yianyao/Desktop/Game-Me2D/src/main.cpp
  /usr/local/include/SFML/Config.hpp
  /usr/local/include/SFML/Graphics.hpp

@@ -15,10 +15,9 @@ void Engine::update(float dtAsSeconds) {
     m_Player_2.update(dtAsSeconds);
   }
   if (m_SplitScreen) {
-    //std::cout << m_Player_1.getCenter().x << m_Player_1.getCenter().y << m_Player_2.getCenter().x << m_Player_2.getCenter().y << "\n";
     m_LeftView.setCenter(m_Player_1.getCenter());
     m_RightView.setCenter(m_Player_2.getCenter());
   } else {
-    m_MainView.setCenter(m_Player_1.getCenter());
+    m_MainView.setCenter((m_Player_1.getCenter().x + m_Player_2.getCenter().x) / 2, (m_Player_1.getCenter().y + m_Player_2.getCenter().y) / 2);
   }
 }

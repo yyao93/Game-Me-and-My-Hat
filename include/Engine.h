@@ -6,6 +6,7 @@
 #include "fullpath.h"
 #include "Player_1.h"
 #include "Player_2.h"
+#include "para.h"
 
 using namespace sf;
 
