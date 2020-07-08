@@ -9,10 +9,14 @@ void Engine::update(float dtAsSeconds) {
   if (m_Starting) {
     m_Player_1.spawn(Vector2f(1000, 800));
     m_Player_2.spawn(Vector2f(1160, 800));
+    m_Bow.spawn(m_Player_1);
+    m_Katana.spawn(m_Player_2);
   }
   if (m_Playing) {
     m_Player_1.update(dtAsSeconds);
     m_Player_2.update(dtAsSeconds);
+    m_Bow.update(m_Player_1);
+    m_Katana.update(m_Player_2);
   }
   if (m_SplitScreen) {
     m_LeftView.setCenter(m_Player_1.getCenter());

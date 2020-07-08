@@ -4,8 +4,12 @@
 #include <SFML/Graphics.hpp>
 #include "TextureHolder.h"
 #include "fullpath.h"
+#include "Player.h"
 #include "Player_1.h"
 #include "Player_2.h"
+#include "Weapon.h"
+#include "Weapon_Bow.h"
+#include "Weapon_Katana.h"
 #include "para.h"
 
 using namespace sf;
@@ -17,6 +21,9 @@ private:
   // Players
   Player_1 m_Player_1;
   Player_2 m_Player_2;
+  // Weapons
+  Weapon_Bow m_Bow;
+  Weapon_Katana m_Katana;
 
   // A regular RenderWindow
   RenderWindow m_window;

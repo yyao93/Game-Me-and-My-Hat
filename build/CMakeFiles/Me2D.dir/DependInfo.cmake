@@ -12,6 +12,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/yianyao/Desktop/Game-Me2D/src/Player_2.cpp" "/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles/Me2D.dir/src/Player_2.cpp.o"
   "/Users/yianyao/Desktop/Game-Me2D/src/TextureHolder.cpp" "/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles/Me2D.dir/src/TextureHolder.cpp.o"
   "/Users/yianyao/Desktop/Game-Me2D/src/Update.cpp" "/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles/Me2D.dir/src/Update.cpp.o"
+  "/Users/yianyao/Desktop/Game-Me2D/src/Weapon.cpp" "/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles/Me2D.dir/src/Weapon.cpp.o"
+  "/Users/yianyao/Desktop/Game-Me2D/src/Weapon_Bow.cpp" "/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o"
+  "/Users/yianyao/Desktop/Game-Me2D/src/Weapon_Katana.cpp" "/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles/Me2D.dir/src/Weapon_Katana.cpp.o"
   "/Users/yianyao/Desktop/Game-Me2D/src/fullpath.cpp" "/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles/Me2D.dir/src/fullpath.cpp.o"
   "/Users/yianyao/Desktop/Game-Me2D/src/main.cpp" "/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles/Me2D.dir/src/main.cpp.o"
   )

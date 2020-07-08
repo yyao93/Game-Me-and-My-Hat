@@ -20,9 +20,12 @@ A 2-D creature who loves hats(hence the title). The creature lives in a 2-D surf
 ### The players:
 -The player is only of a simple geometric shape(circle, triangle), which is the shape of their hats.
 -The player should have some stats to maintain(similar to the hunger, sanity and health in DST).
-### More to come
+### 
 
-### I have a little bit of code ready, I will try to organize them and put them here as soon as possible. 
+## TODOs:
+### add accelaration to make the movement smooth
+### weapon
+### randomly generalized background
 
 
 

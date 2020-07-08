@@ -339,6 +339,87 @@ src/Update.cpp.s:
 	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Update.cpp.s
 .PHONY : src/Update.cpp.s
 
+src/Weapon.o: src/Weapon.cpp.o
+
+.PHONY : src/Weapon.o
+
+# target to build an object file
+src/Weapon.cpp.o:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon.cpp.o
+.PHONY : src/Weapon.cpp.o
+
+src/Weapon.i: src/Weapon.cpp.i
+
+.PHONY : src/Weapon.i
+
+# target to preprocess a source file
+src/Weapon.cpp.i:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon.cpp.i
+.PHONY : src/Weapon.cpp.i
+
+src/Weapon.s: src/Weapon.cpp.s
+
+.PHONY : src/Weapon.s
+
+# target to generate assembly for a file
+src/Weapon.cpp.s:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon.cpp.s
+.PHONY : src/Weapon.cpp.s
+
+src/Weapon_Bow.o: src/Weapon_Bow.cpp.o
+
+.PHONY : src/Weapon_Bow.o
+
+# target to build an object file
+src/Weapon_Bow.cpp.o:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o
+.PHONY : src/Weapon_Bow.cpp.o
+
+src/Weapon_Bow.i: src/Weapon_Bow.cpp.i
+
+.PHONY : src/Weapon_Bow.i
+
+# target to preprocess a source file
+src/Weapon_Bow.cpp.i:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.i
+.PHONY : src/Weapon_Bow.cpp.i
+
+src/Weapon_Bow.s: src/Weapon_Bow.cpp.s
+
+.PHONY : src/Weapon_Bow.s
+
+# target to generate assembly for a file
+src/Weapon_Bow.cpp.s:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.s
+.PHONY : src/Weapon_Bow.cpp.s
+
+src/Weapon_Katana.o: src/Weapon_Katana.cpp.o
+
+.PHONY : src/Weapon_Katana.o
+
+# target to build an object file
+src/Weapon_Katana.cpp.o:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon_Katana.cpp.o
+.PHONY : src/Weapon_Katana.cpp.o
+
+src/Weapon_Katana.i: src/Weapon_Katana.cpp.i
+
+.PHONY : src/Weapon_Katana.i
+
+# target to preprocess a source file
+src/Weapon_Katana.cpp.i:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon_Katana.cpp.i
+.PHONY : src/Weapon_Katana.cpp.i
+
+src/Weapon_Katana.s: src/Weapon_Katana.cpp.s
+
+.PHONY : src/Weapon_Katana.s
+
+# target to generate assembly for a file
+src/Weapon_Katana.cpp.s:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon_Katana.cpp.s
+.PHONY : src/Weapon_Katana.cpp.s
+
 src/fullpath.o: src/fullpath.cpp.o
 
 .PHONY : src/fullpath.o
@@ -426,6 +507,15 @@ help:
 	@echo "... src/Update.o"
 	@echo "... src/Update.i"
 	@echo "... src/Update.s"
+	@echo "... src/Weapon.o"
+	@echo "... src/Weapon.i"
+	@echo "... src/Weapon.s"
+	@echo "... src/Weapon_Bow.o"
+	@echo "... src/Weapon_Bow.i"
+	@echo "... src/Weapon_Bow.s"
+	@echo "... src/Weapon_Katana.o"
+	@echo "... src/Weapon_Katana.i"
+	@echo "... src/Weapon_Katana.s"
 	@echo "... src/fullpath.o"
 	@echo "... src/fullpath.i"
 	@echo "... src/fullpath.s"

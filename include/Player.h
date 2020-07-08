@@ -23,6 +23,8 @@ public:
   Vector2f getCenter();
   Vector2f getCenterOrigin();
   float getRotation();
+  Vector2f getmPosition() {return m_Position;};
+  Vector2f getmDirection() {return m_Direction;};
   void update(float elapsedTime); // this function is called every frame
 };
 

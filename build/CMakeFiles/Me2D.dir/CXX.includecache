@@ -12,13 +12,19 @@ SFML/Graphics.hpp
 para.h
 /Users/yianyao/Desktop/Game-Me2D/include/para.h
 
+/Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
+SFML/Graphics.hpp
+-
+Player.h
+/Users/yianyao/Desktop/Game-Me2D/include/Player.h
+
 /Users/yianyao/Desktop/Game-Me2D/include/para.h
 SFML/Graphics.hpp
 -
 
-/Users/yianyao/Desktop/Game-Me2D/src/Player.cpp
-../include/Player.h
-/Users/yianyao/Desktop/Game-Me2D/include/Player.h
+/Users/yianyao/Desktop/Game-Me2D/src/Weapon.cpp
+../include/Weapon.h
+/Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
 cmath
 -
 
