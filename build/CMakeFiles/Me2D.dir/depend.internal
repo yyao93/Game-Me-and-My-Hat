@@ -5,6 +5,9 @@ CMakeFiles/Me2D.dir/src/Draw.cpp.o
  /Users/yianyao/Desktop/Game-Me2D/include/Engine.h
  /Users/yianyao/Desktop/Game-Me2D/include/Player.h
  /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon_Bow.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon_Katana.h
  /Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
  /Users/yianyao/Desktop/Game-Me2D/src/Draw.cpp
  /usr/local/include/SFML/Config.hpp
@@ -85,6 +88,9 @@ CMakeFiles/Me2D.dir/src/Engine.cpp.o
  /Users/yianyao/Desktop/Game-Me2D/include/Engine.h
  /Users/yianyao/Desktop/Game-Me2D/include/Player.h
  /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon_Bow.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon_Katana.h
  /Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
  /Users/yianyao/Desktop/Game-Me2D/src/Engine.cpp
  /usr/local/include/SFML/Config.hpp
@@ -165,6 +171,9 @@ CMakeFiles/Me2D.dir/src/Input.cpp.o
  /Users/yianyao/Desktop/Game-Me2D/include/Engine.h
  /Users/yianyao/Desktop/Game-Me2D/include/Player.h
  /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon_Bow.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon_Katana.h
  /Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
  /Users/yianyao/Desktop/Game-Me2D/src/Input.cpp
  /usr/local/include/SFML/Config.hpp
@@ -401,6 +410,9 @@ CMakeFiles/Me2D.dir/src/Update.cpp.o
  /Users/yianyao/Desktop/Game-Me2D/include/Engine.h
  /Users/yianyao/Desktop/Game-Me2D/include/Player.h
  /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon_Bow.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon_Katana.h
  /Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
  /Users/yianyao/Desktop/Game-Me2D/src/Update.cpp
  /usr/local/include/SFML/Config.hpp
@@ -724,6 +736,9 @@ CMakeFiles/Me2D.dir/src/main.cpp.o
  /Users/yianyao/Desktop/Game-Me2D/include/Engine.h
  /Users/yianyao/Desktop/Game-Me2D/include/Player.h
  /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon_Bow.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon_Katana.h
  /Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
  /Users/yianyao/Desktop/Game-Me2D/src/main.cpp
  /usr/local/include/SFML/Config.hpp

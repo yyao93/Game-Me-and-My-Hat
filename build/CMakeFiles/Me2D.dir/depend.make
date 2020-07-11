@@ -4,6 +4,9 @@
 CMakeFiles/Me2D.dir/src/Draw.cpp.o: ../include/Engine.h
 CMakeFiles/Me2D.dir/src/Draw.cpp.o: ../include/Player.h
 CMakeFiles/Me2D.dir/src/Draw.cpp.o: ../include/TextureHolder.h
+CMakeFiles/Me2D.dir/src/Draw.cpp.o: ../include/Weapon.h
+CMakeFiles/Me2D.dir/src/Draw.cpp.o: ../include/Weapon_Bow.h
+CMakeFiles/Me2D.dir/src/Draw.cpp.o: ../include/Weapon_Katana.h
 CMakeFiles/Me2D.dir/src/Draw.cpp.o: ../include/fullpath.h
 CMakeFiles/Me2D.dir/src/Draw.cpp.o: ../src/Draw.cpp
 CMakeFiles/Me2D.dir/src/Draw.cpp.o: /usr/local/include/SFML/Config.hpp
@@ -84,6 +87,9 @@ CMakeFiles/Me2D.dir/src/Draw.cpp.o: /usr/local/include/SFML/Window/WindowStyle.h
 CMakeFiles/Me2D.dir/src/Engine.cpp.o: ../include/Engine.h
 CMakeFiles/Me2D.dir/src/Engine.cpp.o: ../include/Player.h
 CMakeFiles/Me2D.dir/src/Engine.cpp.o: ../include/TextureHolder.h
+CMakeFiles/Me2D.dir/src/Engine.cpp.o: ../include/Weapon.h
+CMakeFiles/Me2D.dir/src/Engine.cpp.o: ../include/Weapon_Bow.h
+CMakeFiles/Me2D.dir/src/Engine.cpp.o: ../include/Weapon_Katana.h
 CMakeFiles/Me2D.dir/src/Engine.cpp.o: ../include/fullpath.h
 CMakeFiles/Me2D.dir/src/Engine.cpp.o: ../src/Engine.cpp
 CMakeFiles/Me2D.dir/src/Engine.cpp.o: /usr/local/include/SFML/Config.hpp
@@ -164,6 +170,9 @@ CMakeFiles/Me2D.dir/src/Engine.cpp.o: /usr/local/include/SFML/Window/WindowStyle
 CMakeFiles/Me2D.dir/src/Input.cpp.o: ../include/Engine.h
 CMakeFiles/Me2D.dir/src/Input.cpp.o: ../include/Player.h
 CMakeFiles/Me2D.dir/src/Input.cpp.o: ../include/TextureHolder.h
+CMakeFiles/Me2D.dir/src/Input.cpp.o: ../include/Weapon.h
+CMakeFiles/Me2D.dir/src/Input.cpp.o: ../include/Weapon_Bow.h
+CMakeFiles/Me2D.dir/src/Input.cpp.o: ../include/Weapon_Katana.h
 CMakeFiles/Me2D.dir/src/Input.cpp.o: ../include/fullpath.h
 CMakeFiles/Me2D.dir/src/Input.cpp.o: ../src/Input.cpp
 CMakeFiles/Me2D.dir/src/Input.cpp.o: /usr/local/include/SFML/Config.hpp
@@ -400,6 +409,9 @@ CMakeFiles/Me2D.dir/src/TextureHolder.cpp.o: /usr/local/include/SFML/Window/Wind
 CMakeFiles/Me2D.dir/src/Update.cpp.o: ../include/Engine.h
 CMakeFiles/Me2D.dir/src/Update.cpp.o: ../include/Player.h
 CMakeFiles/Me2D.dir/src/Update.cpp.o: ../include/TextureHolder.h
+CMakeFiles/Me2D.dir/src/Update.cpp.o: ../include/Weapon.h
+CMakeFiles/Me2D.dir/src/Update.cpp.o: ../include/Weapon_Bow.h
+CMakeFiles/Me2D.dir/src/Update.cpp.o: ../include/Weapon_Katana.h
 CMakeFiles/Me2D.dir/src/Update.cpp.o: ../include/fullpath.h
 CMakeFiles/Me2D.dir/src/Update.cpp.o: ../src/Update.cpp
 CMakeFiles/Me2D.dir/src/Update.cpp.o: /usr/local/include/SFML/Config.hpp
@@ -723,6 +735,9 @@ CMakeFiles/Me2D.dir/src/fullpath.cpp.o: ../src/fullpath.cpp
 CMakeFiles/Me2D.dir/src/main.cpp.o: ../include/Engine.h
 CMakeFiles/Me2D.dir/src/main.cpp.o: ../include/Player.h
 CMakeFiles/Me2D.dir/src/main.cpp.o: ../include/TextureHolder.h
+CMakeFiles/Me2D.dir/src/main.cpp.o: ../include/Weapon.h
+CMakeFiles/Me2D.dir/src/main.cpp.o: ../include/Weapon_Bow.h
+CMakeFiles/Me2D.dir/src/main.cpp.o: ../include/Weapon_Katana.h
 CMakeFiles/Me2D.dir/src/main.cpp.o: ../include/fullpath.h
 CMakeFiles/Me2D.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/Me2D.dir/src/main.cpp.o: /usr/local/include/SFML/Config.hpp

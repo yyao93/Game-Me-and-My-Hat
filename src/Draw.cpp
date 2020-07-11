@@ -7,6 +7,8 @@ void Engine::draw() {
     window.draw(backgroundSprite);
     window.draw(player1.getSprite());
     window.draw(player2.getSprite());
+    window.draw(bow.getSprite());
+    window.draw(katana.getSprite());
   }
   if (isScreenSplited){
     // Left side
@@ -14,11 +16,15 @@ void Engine::draw() {
     window.draw(backgroundSprite);
     window.draw(player1.getSprite());
     window.draw(player2.getSprite());
+    window.draw(bow.getSprite());
+    window.draw(katana.getSprite());
     // Right side
     window.setView(rightView);
     window.draw(backgroundSprite);
     window.draw(player1.getSprite());
     window.draw(player2.getSprite());
+    window.draw(bow.getSprite());
+    window.draw(katana.getSprite());
   }
   window.display();
 

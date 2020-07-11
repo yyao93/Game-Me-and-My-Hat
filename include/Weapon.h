@@ -13,9 +13,11 @@ protected:
 public:
   void virtual spawn(Player player);
   Vector2f getOrigin();
+  Sprite getSprite() {return wSprite;};
   Vector2f getPosition() {return wPos;};
   Vector2f getDirection() {return wDir;};
   void update(Player player);
+  void draw();
 };
 
 #endif
