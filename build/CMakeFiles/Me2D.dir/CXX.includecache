@@ -9,24 +9,28 @@
 /Users/yianyao/Desktop/Game-Me2D/include/Player.h
 SFML/Graphics.hpp
 -
-para.h
-/Users/yianyao/Desktop/Game-Me2D/include/para.h
 
-/Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
+/Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
 SFML/Graphics.hpp
 -
-Player.h
-/Users/yianyao/Desktop/Game-Me2D/include/Player.h
-
-/Users/yianyao/Desktop/Game-Me2D/include/para.h
-SFML/Graphics.hpp
+map
 -
 
-/Users/yianyao/Desktop/Game-Me2D/src/Weapon.cpp
-../include/Weapon.h
-/Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
+/Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
+stdlib.h
+-
+iostream
+-
+
+/Users/yianyao/Desktop/Game-Me2D/src/Player.cpp
 cmath
 -
+../include/Player.h
+/Users/yianyao/Desktop/Game-Me2D/include/Player.h
+../include/TextureHolder.h
+/Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
+../include/fullpath.h
+/Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h

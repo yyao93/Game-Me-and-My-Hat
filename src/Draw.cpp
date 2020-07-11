@@ -1,31 +1,25 @@
 #include "../include/Engine.h"
 
 void Engine::draw() {
-  m_window.clear(Color::White);
-  if (!m_SplitScreen) {
-    m_window.setView(m_MainView);
-    m_window.draw(m_BackgroundSprite);
-    m_window.draw(m_Player_1.getSprite());
-    m_window.draw(m_Player_2.getSprite());
-    m_window.draw(m_Bow.getSprite());
-    m_window.draw(m_Katana.getSprite());
+  window.clear(Color::White);
+  if (!isScreenSplited) {
+    window.setView(mainView);
+    window.draw(backgroundSprite);
+    window.draw(player1.getSprite());
+    window.draw(player2.getSprite());
   }
-  if (m_SplitScreen){
+  if (isScreenSplited){
     // Left side
-    m_window.setView(m_LeftView);
-    m_window.draw(m_BackgroundSprite);
-    m_window.draw(m_Player_1.getSprite());
-    m_window.draw(m_Player_2.getSprite());
-    m_window.draw(m_Bow.getSprite());
-    m_window.draw(m_Katana.getSprite());
+    window.setView(leftView);
+    window.draw(backgroundSprite);
+    window.draw(player1.getSprite());
+    window.draw(player2.getSprite());
     // Right side
-    m_window.setView(m_RightView);
-    m_window.draw(m_BackgroundSprite);
-    m_window.draw(m_Player_1.getSprite());
-    m_window.draw(m_Player_2.getSprite());
-    m_window.draw(m_Bow.getSprite());
-    m_window.draw(m_Katana.getSprite());
+    window.setView(rightView);
+    window.draw(backgroundSprite);
+    window.draw(player1.getSprite());
+    window.draw(player2.getSprite());
   }
-  m_window.display();
+  window.display();
 
 }

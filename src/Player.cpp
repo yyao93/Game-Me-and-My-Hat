@@ -1,56 +1,64 @@
-#include "../include/Player.h"
 #include <cmath>
 
-void Player::spawn(Vector2f startPosition) {
-  m_Position.x = startPosition.x;
-  m_Position.y = startPosition.y;
-  m_Sprite.setPosition(m_Position);
-  m_Direction = Vector2f(0, 0);
-  m_Sprite.setOrigin(this -> getCenterOrigin());
+#include "../include/Player.h"
+#include "../include/TextureHolder.h"
+#include "../include/fullpath.h"
+
+void Player::spawn(Vector2f startPos) {
+  pPos = startPos;
+  pDir = Vector2f(0, 0);
+  pSprite = isPlayer1 ? Sprite(TextureHolder::GetTexture(full_path("../resources/graphics/player_1.png"))) : Sprite(TextureHolder::GetTexture(full_path("../resources/graphics/player_2.png")));
+  pSprite.setPosition(pPos);
+  pSprite.setOrigin(this -> getOrigin());
+  pSpeed = 400;
+  isLeft = isRight = isUp = isDown = false;
 }
 
-FloatRect Player::getPosition() {
-  return m_Sprite.getGlobalBounds();
+void Player::pInput() {
+  if (isPlayer1) {
+    isUp = Keyboard::isKeyPressed(Keyboard::W) ? true : false;
+    isLeft = Keyboard::isKeyPressed(Keyboard::A) ? true : false;
+    isDown = Keyboard::isKeyPressed(Keyboard::S) ? true : false;
+    isRight = Keyboard::isKeyPressed(Keyboard::D) ? true : false;
+  } else {
+    isUp = Keyboard::isKeyPressed(Keyboard::Up) ? true : false;
+    isLeft = Keyboard::isKeyPressed(Keyboard::Left) ? true : false;
+    isDown = Keyboard::isKeyPressed(Keyboard::Down) ? true : false;
+    isRight = Keyboard::isKeyPressed(Keyboard::Right) ? true : false;
+  }
 }
 
-Sprite Player::getSprite() {
-  return m_Sprite;
-}
-
-float Player::getRotation() {
-  return m_Sprite.getRotation();
+Vector2f Player::getOrigin() {
+  return Vector2f(pSprite.getGlobalBounds().width / 2, pSprite.getGlobalBounds().height / 2);
 }
 
 Vector2f Player::getCenter() {
-  return Vector2f(m_Position.x + m_Sprite.getGlobalBounds().width / 2,
-                  m_Position.y + m_Sprite.getGlobalBounds().height / 2);
-}
-
-Vector2f Player::getCenterOrigin() {
-  return Vector2f(m_Sprite.getGlobalBounds().width / 2, m_Sprite.getGlobalBounds().height / 2);
+  return Vector2f(pPos.x + pSprite.getGlobalBounds().width / 2,
+                  pPos.y + pSprite.getGlobalBounds().height / 2);
 }
 
 void Player::update(float elapsedTime) {
-  if (m_RightPressed || m_LeftPressed || m_UpPressed || m_DownPressed) {
-    m_Direction = Vector2f(0, 0);
-    // make the transition smooth
+  if (isLeft || isRight || isUp || isDown) {
+    // need to change this later on
+    pDir = Vector2f(0, 0);
   }
-  if (m_RightPressed) {
-    m_Position.x += m_Speed * elapsedTime;
-    m_Direction.x = 1;
+  if (isRight) {
+    pPos.x += pSpeed * elapsedTime;
+    pDir.x++;
   }
-  if (m_LeftPressed) {
-    m_Position.x -= m_Speed * elapsedTime;
-    m_Direction.x = -1;
+  if (isLeft) {
+    pPos.x -= pSpeed * elapsedTime;
+    pDir.x--;
   }
-  if (m_UpPressed) {
-    m_Position.y -= m_Speed * elapsedTime;
-    m_Direction.y = 1;
+  if (isUp) {
+    pPos.y -= pSpeed * elapsedTime;
+    pDir.y++;
   }
-  if (m_DownPressed) {
-    m_Position.y += m_Speed * elapsedTime;
-    m_Direction.y = -1;
+  if (isDown) {
+    pPos.y += pSpeed * elapsedTime;
+    pDir.y--;
   }
-  m_Sprite.setPosition(m_Position);
-  m_Sprite.setRotation(180 * (atan2(m_Direction.x, m_Direction.y)) / M_PI);
+  pSprite.setPosition(pPos);
+  pSprite.setRotation(180 * (atan2(pDir.x, pDir.y)) / M_PI);
 }
+

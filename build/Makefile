@@ -231,60 +231,6 @@ src/Player.cpp.s:
 	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Player.cpp.s
 .PHONY : src/Player.cpp.s
 
-src/Player_1.o: src/Player_1.cpp.o
-
-.PHONY : src/Player_1.o
-
-# target to build an object file
-src/Player_1.cpp.o:
-	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Player_1.cpp.o
-.PHONY : src/Player_1.cpp.o
-
-src/Player_1.i: src/Player_1.cpp.i
-
-.PHONY : src/Player_1.i
-
-# target to preprocess a source file
-src/Player_1.cpp.i:
-	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Player_1.cpp.i
-.PHONY : src/Player_1.cpp.i
-
-src/Player_1.s: src/Player_1.cpp.s
-
-.PHONY : src/Player_1.s
-
-# target to generate assembly for a file
-src/Player_1.cpp.s:
-	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Player_1.cpp.s
-.PHONY : src/Player_1.cpp.s
-
-src/Player_2.o: src/Player_2.cpp.o
-
-.PHONY : src/Player_2.o
-
-# target to build an object file
-src/Player_2.cpp.o:
-	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Player_2.cpp.o
-.PHONY : src/Player_2.cpp.o
-
-src/Player_2.i: src/Player_2.cpp.i
-
-.PHONY : src/Player_2.i
-
-# target to preprocess a source file
-src/Player_2.cpp.i:
-	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Player_2.cpp.i
-.PHONY : src/Player_2.cpp.i
-
-src/Player_2.s: src/Player_2.cpp.s
-
-.PHONY : src/Player_2.s
-
-# target to generate assembly for a file
-src/Player_2.cpp.s:
-	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Player_2.cpp.s
-.PHONY : src/Player_2.cpp.s
-
 src/TextureHolder.o: src/TextureHolder.cpp.o
 
 .PHONY : src/TextureHolder.o
@@ -393,32 +339,32 @@ src/Weapon_Bow.cpp.s:
 	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.s
 .PHONY : src/Weapon_Bow.cpp.s
 
-src/Weapon_Katana.o: src/Weapon_Katana.cpp.o
+src/Weapon_Kanata.o: src/Weapon_Kanata.cpp.o
 
-.PHONY : src/Weapon_Katana.o
+.PHONY : src/Weapon_Kanata.o
 
 # target to build an object file
-src/Weapon_Katana.cpp.o:
-	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon_Katana.cpp.o
-.PHONY : src/Weapon_Katana.cpp.o
+src/Weapon_Kanata.cpp.o:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon_Kanata.cpp.o
+.PHONY : src/Weapon_Kanata.cpp.o
 
-src/Weapon_Katana.i: src/Weapon_Katana.cpp.i
+src/Weapon_Kanata.i: src/Weapon_Kanata.cpp.i
 
-.PHONY : src/Weapon_Katana.i
+.PHONY : src/Weapon_Kanata.i
 
 # target to preprocess a source file
-src/Weapon_Katana.cpp.i:
-	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon_Katana.cpp.i
-.PHONY : src/Weapon_Katana.cpp.i
+src/Weapon_Kanata.cpp.i:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon_Kanata.cpp.i
+.PHONY : src/Weapon_Kanata.cpp.i
 
-src/Weapon_Katana.s: src/Weapon_Katana.cpp.s
+src/Weapon_Kanata.s: src/Weapon_Kanata.cpp.s
 
-.PHONY : src/Weapon_Katana.s
+.PHONY : src/Weapon_Kanata.s
 
 # target to generate assembly for a file
-src/Weapon_Katana.cpp.s:
-	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon_Katana.cpp.s
-.PHONY : src/Weapon_Katana.cpp.s
+src/Weapon_Kanata.cpp.s:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Weapon_Kanata.cpp.s
+.PHONY : src/Weapon_Kanata.cpp.s
 
 src/fullpath.o: src/fullpath.cpp.o
 
@@ -495,12 +441,6 @@ help:
 	@echo "... src/Player.o"
 	@echo "... src/Player.i"
 	@echo "... src/Player.s"
-	@echo "... src/Player_1.o"
-	@echo "... src/Player_1.i"
-	@echo "... src/Player_1.s"
-	@echo "... src/Player_2.o"
-	@echo "... src/Player_2.i"
-	@echo "... src/Player_2.s"
 	@echo "... src/TextureHolder.o"
 	@echo "... src/TextureHolder.i"
 	@echo "... src/TextureHolder.s"
@@ -513,9 +453,9 @@ help:
 	@echo "... src/Weapon_Bow.o"
 	@echo "... src/Weapon_Bow.i"
 	@echo "... src/Weapon_Bow.s"
-	@echo "... src/Weapon_Katana.o"
-	@echo "... src/Weapon_Katana.i"
-	@echo "... src/Weapon_Katana.s"
+	@echo "... src/Weapon_Kanata.o"
+	@echo "... src/Weapon_Kanata.i"
+	@echo "... src/Weapon_Kanata.s"
 	@echo "... src/fullpath.o"
 	@echo "... src/fullpath.i"
 	@echo "... src/fullpath.s"

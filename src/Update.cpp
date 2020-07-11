@@ -1,27 +1,21 @@
 #include "../include/Engine.h"
-#include <SFML/Graphics.hpp>
-#include <sstream>
-
-#include <iostream>
-using namespace sf;
 
 void Engine::update(float dtAsSeconds) {
-  if (m_Starting) {
-    m_Player_1.spawn(Vector2f(1000, 800));
-    m_Player_2.spawn(Vector2f(1160, 800));
-    m_Bow.spawn(m_Player_1);
-    m_Katana.spawn(m_Player_2);
+  if (isStarting) {
+    player1.spawn(Vector2f(1000, 800));
+    player2.spawn(Vector2f(1160, 800));
   }
-  if (m_Playing) {
-    m_Player_1.update(dtAsSeconds);
-    m_Player_2.update(dtAsSeconds);
-    m_Bow.update(m_Player_1);
-    m_Katana.update(m_Player_2);
+  if (isPlaying) {
+    player1.update(dtAsSeconds);
+    player2.update(dtAsSeconds);
   }
-  if (m_SplitScreen) {
-    m_LeftView.setCenter(m_Player_1.getCenter());
-    m_RightView.setCenter(m_Player_2.getCenter());
+  if (isScreenSplited) {
+    leftView.setCenter(player1.getCenter());
+    rightView.setCenter(player2.getCenter());
   } else {
-    m_MainView.setCenter((m_Player_1.getCenter().x + m_Player_2.getCenter().x) / 2, (m_Player_1.getCenter().y + m_Player_2.getCenter().y) / 2);
+    //mainView.setCenter((player1.getCenter() + player2.getCenter()) / 2); //check this
+    mainView.setCenter((player1.getCenter().x + player2.getCenter().x) / 2, (player1.getCenter().y + player2.getCenter().y) / 2);
   }
 }
+
+

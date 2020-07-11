@@ -1,20 +1,20 @@
-#include "../include/Weapon.h"
 #include <cmath>
 
-// void Weapon::spawn(Player player) {
-//   m_Position = player.getmPosition();
-//   m_Sprite.setPosition(m_Position);
-//   m_Direction = player.getmDirection();
-//   m_Sprite.setOrigin(player.getCenterOrigin());
-// }
+#include "../include/Weapon.h"
 
-Vector2f Weapon::getCenter() {
-  return Vector2f(m_Position.x + m_Sprite.getGlobalBounds().width / 2,
-                  m_Position.y + m_Sprite.getGlobalBounds().height / 2);
+void Weapon::spawn(Player player) {
+  wPos = player.getPosition();
+  wDir = player.getDirection();
+  wSprite.setOrigin(this -> getOrigin());
 }
 
-Vector2f Weapon::getCenterOrigin() {
-  return Vector2f(m_Sprite.getGlobalBounds().width / 2, m_Sprite.getGlobalBounds().height / 2);
+Vector2f Weapon::getOrigin() {
+  return Vector2f(wSprite.getGlobalBounds().width / 2, wSprite.getGlobalBounds().height / 2);
 }
 
-
+void Weapon::update(Player player) {
+    wPos = player.getPosition();
+    wDir = player.getDirection();
+    wSprite.setPosition(wPos);
+    wSprite.setRotation(180 * (atan2(wDir.x, wDir.y)) / M_PI);
+}

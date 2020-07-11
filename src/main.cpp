@@ -7,4 +7,3 @@ int main(int, char const**) {
   engine.run();
   return 0;
 }
-

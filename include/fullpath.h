@@ -6,6 +6,4 @@
 
 std::string full_path(const char * filename);
 
-
-
 #endif
