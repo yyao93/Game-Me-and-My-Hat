@@ -33,12 +33,12 @@ A 2-D creature who loves hats(hence the title). The creature lives in a 2-D surf
 ### 
 
 ## TODOs:
-### add accelaration to make the movement smooth
-### randomly generalized background
-### player to 2 sub class
-### player.isMoving
-### default direction of weapon while sliding
-### bullet class
+-add accelaration to make the movement smooth
+-randomly generalized background
+-player to 2 sub class
+-player.isMoving
+-default direction of weapon while sliding
+-bullet class
 
 
 
