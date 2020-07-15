@@ -5,6 +5,16 @@ A 2-D action-adventure sandbox game inspired by Terraria, Minecraft and Don't St
 ## Tools:
 I am planning to use C++ wih SFML for this project, and the first step is to have a runable game on Mac OS.
 
+# How to play:
+## Movement: 
+### normal UpDownLeftRight
+### Sliding: in the sliding mode, the player will keep moving along a direction, and the controls for the direction now becomes the direction of the weapon.
+
+## Control:
+### Toggle Split Screen: E
+### Player1: movement: WASD, sliding: Num2, shoot: Num1
+### Player2: movement: UpDownLeftRight, sliding: ], shoot: [
+
 ## Ideas:
 A 2-D creature who loves hats(hence the title). The creature lives in a 2-D surface, it is shown on the screen by its hat. 
 
@@ -24,8 +34,11 @@ A 2-D creature who loves hats(hence the title). The creature lives in a 2-D surf
 
 ## TODOs:
 ### add accelaration to make the movement smooth
-### weapon
 ### randomly generalized background
+### player to 2 sub class
+### player.isMoving
+### default direction of weapon while sliding
+### bullet class
 
 
 
