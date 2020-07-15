@@ -252,6 +252,9 @@ CMakeFiles/Me2D.dir/src/Input.cpp.o: /usr/local/include/SFML/Window/WindowStyle.
 
 CMakeFiles/Me2D.dir/src/Player.cpp.o: ../include/Player.h
 CMakeFiles/Me2D.dir/src/Player.cpp.o: ../include/TextureHolder.h
+CMakeFiles/Me2D.dir/src/Player.cpp.o: ../include/Weapon.h
+CMakeFiles/Me2D.dir/src/Player.cpp.o: ../include/Weapon_Bow.h
+CMakeFiles/Me2D.dir/src/Player.cpp.o: ../include/Weapon_Katana.h
 CMakeFiles/Me2D.dir/src/Player.cpp.o: ../include/fullpath.h
 CMakeFiles/Me2D.dir/src/Player.cpp.o: ../src/Player.cpp
 CMakeFiles/Me2D.dir/src/Player.cpp.o: /usr/local/include/SFML/Config.hpp
@@ -489,7 +492,6 @@ CMakeFiles/Me2D.dir/src/Update.cpp.o: /usr/local/include/SFML/Window/Window.hpp
 CMakeFiles/Me2D.dir/src/Update.cpp.o: /usr/local/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/Me2D.dir/src/Update.cpp.o: /usr/local/include/SFML/Window/WindowStyle.hpp
 
-CMakeFiles/Me2D.dir/src/Weapon.cpp.o: ../include/Player.h
 CMakeFiles/Me2D.dir/src/Weapon.cpp.o: ../include/Weapon.h
 CMakeFiles/Me2D.dir/src/Weapon.cpp.o: ../src/Weapon.cpp
 CMakeFiles/Me2D.dir/src/Weapon.cpp.o: /usr/local/include/SFML/Config.hpp
@@ -567,7 +569,6 @@ CMakeFiles/Me2D.dir/src/Weapon.cpp.o: /usr/local/include/SFML/Window/Window.hpp
 CMakeFiles/Me2D.dir/src/Weapon.cpp.o: /usr/local/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/Me2D.dir/src/Weapon.cpp.o: /usr/local/include/SFML/Window/WindowStyle.hpp
 
-CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o: ../include/Player.h
 CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o: ../include/TextureHolder.h
 CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o: ../include/Weapon.h
 CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o: ../include/Weapon_Bow.h
@@ -648,7 +649,6 @@ CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o: /usr/local/include/SFML/Window/Window.
 CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o: /usr/local/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o: /usr/local/include/SFML/Window/WindowStyle.hpp
 
-CMakeFiles/Me2D.dir/src/Weapon_Kanata.cpp.o: ../include/Player.h
 CMakeFiles/Me2D.dir/src/Weapon_Kanata.cpp.o: ../include/TextureHolder.h
 CMakeFiles/Me2D.dir/src/Weapon_Kanata.cpp.o: ../include/Weapon.h
 CMakeFiles/Me2D.dir/src/Weapon_Kanata.cpp.o: ../include/Weapon_Katana.h

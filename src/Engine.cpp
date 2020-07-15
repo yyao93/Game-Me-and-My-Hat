@@ -3,8 +3,8 @@
 Engine::Engine() {
   player1 = Player(true);
   player2 = Player(false);
-  bow.spawn(player1);
-  katana.spawn(player2);
+  bow.spawn(player1.getPosition(), player1.getDirection());
+  katana.spawn(player2.getPosition(), player2.getDirection());
   isStarting = true;
   Vector2f resolution;
   //isPlaying = isStarting = isScreenSplited = false;

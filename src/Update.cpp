@@ -8,8 +8,8 @@ void Engine::update(float dtAsSeconds) {
   if (isPlaying) {
     player1.update(dtAsSeconds);
     player2.update(dtAsSeconds);
-    bow.update(player1);
-    katana.update(player2);
+    bow.update(player1.getPosition(), player1.getDirection(), player1.getIsSliding());
+    katana.update(player2.getPosition(), player2.getDirection(), player2.getIsSliding());
   }
   if (isScreenSplited) {
     leftView.setCenter(player1.getCenter());

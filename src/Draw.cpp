@@ -5,6 +5,10 @@ void Engine::draw() {
   if (!isScreenSplited) {
     window.setView(mainView);
     window.draw(backgroundSprite);
+    // player1.draw(window);
+    // player2.draw(window);
+    // bow.draw(window);
+    // katana.draw(window);
     window.draw(player1.getSprite());
     window.draw(player2.getSprite());
     window.draw(bow.getSprite());

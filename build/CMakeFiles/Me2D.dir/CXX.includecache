@@ -23,6 +23,10 @@ fullpath.h
 /Users/yianyao/Desktop/Game-Me2D/include/Player.h
 SFML/Graphics.hpp
 -
+Weapon_Bow.h
+/Users/yianyao/Desktop/Game-Me2D/include/Weapon_Bow.h
+Weapon_Katana.h
+/Users/yianyao/Desktop/Game-Me2D/include/Weapon_Katana.h
 
 /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
 SFML/Graphics.hpp
@@ -33,8 +37,6 @@ map
 /Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
 SFML/Graphics.hpp
 -
-Player.h
-/Users/yianyao/Desktop/Game-Me2D/include/Player.h
 
 /Users/yianyao/Desktop/Game-Me2D/include/Weapon_Bow.h
 Weapon.h
@@ -61,6 +63,16 @@ iostream
 /Users/yianyao/Desktop/Game-Me2D/src/Input.cpp
 ../include/Engine.h
 /Users/yianyao/Desktop/Game-Me2D/include/Engine.h
+
+/Users/yianyao/Desktop/Game-Me2D/src/Player.cpp
+cmath
+-
+../include/Player.h
+/Users/yianyao/Desktop/Game-Me2D/include/Player.h
+../include/TextureHolder.h
+/Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
+../include/fullpath.h
+/Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
 
 /Users/yianyao/Desktop/Game-Me2D/src/Update.cpp
 ../include/Engine.h

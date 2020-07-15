@@ -19,7 +19,9 @@ void Engine::input() {
         isScreenSplited = !isScreenSplited;
       }
     }
-    player1.pInput();
-    player2.pInput();
+    player1.input();
+    bow.input(player1.getIsPlayer1());
+    player2.input();
+    katana.input(player2.getIsPlayer1());
   }
 }

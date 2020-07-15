@@ -253,6 +253,9 @@ CMakeFiles/Me2D.dir/src/Input.cpp.o
 CMakeFiles/Me2D.dir/src/Player.cpp.o
  /Users/yianyao/Desktop/Game-Me2D/include/Player.h
  /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon_Bow.h
+ /Users/yianyao/Desktop/Game-Me2D/include/Weapon_Katana.h
  /Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
  /Users/yianyao/Desktop/Game-Me2D/src/Player.cpp
  /usr/local/include/SFML/Config.hpp
@@ -490,7 +493,6 @@ CMakeFiles/Me2D.dir/src/Update.cpp.o
  /usr/local/include/SFML/Window/WindowHandle.hpp
  /usr/local/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/Me2D.dir/src/Weapon.cpp.o
- /Users/yianyao/Desktop/Game-Me2D/include/Player.h
  /Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
  /Users/yianyao/Desktop/Game-Me2D/src/Weapon.cpp
  /usr/local/include/SFML/Config.hpp
@@ -568,7 +570,6 @@ CMakeFiles/Me2D.dir/src/Weapon.cpp.o
  /usr/local/include/SFML/Window/WindowHandle.hpp
  /usr/local/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o
- /Users/yianyao/Desktop/Game-Me2D/include/Player.h
  /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
  /Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
  /Users/yianyao/Desktop/Game-Me2D/include/Weapon_Bow.h
@@ -649,7 +650,6 @@ CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o
  /usr/local/include/SFML/Window/WindowHandle.hpp
  /usr/local/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/Me2D.dir/src/Weapon_Kanata.cpp.o
- /Users/yianyao/Desktop/Game-Me2D/include/Player.h
  /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
  /Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
  /Users/yianyao/Desktop/Game-Me2D/include/Weapon_Katana.h
