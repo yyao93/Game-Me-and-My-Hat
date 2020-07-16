@@ -10,6 +10,10 @@ void Engine::update(float dtAsSeconds) {
     player2.update(dtAsSeconds);
     bow.update(player1.getPosition(), player1.getDirection(), player1.getIsSliding());
     katana.update(player2.getPosition(), player2.getDirection(), player2.getIsSliding());
+    for (int i = 0; i < 100; i++) {
+      arrow[i].update(dtAsSeconds);
+      blade[i].update(dtAsSeconds);
+    }
   }
   if (isScreenSplited) {
     leftView.setCenter(player1.getCenter());

@@ -5,6 +5,8 @@ Engine::Engine() {
   player2 = Player(false);
   bow.spawn(player1.getPosition(), player1.getDirection());
   katana.spawn(player2.getPosition(), player2.getDirection());
+  idxArrow = 0;
+  idxBlade = 0;
   isStarting = true;
   Vector2f resolution;
   //isPlaying = isStarting = isScreenSplited = false;
@@ -25,6 +27,7 @@ void Engine::run() {
   while (window.isOpen()) {
     Time dt = clock.restart();
     float dtAsSeconds = dt.asSeconds();
+    gameTimeTotal += dt;
     input();
     update(dtAsSeconds);
     draw();

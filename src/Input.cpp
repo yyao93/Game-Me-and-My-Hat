@@ -23,5 +23,21 @@ void Engine::input() {
     bow.input(player1.getIsPlayer1());
     player2.input();
     katana.input(player2.getIsPlayer1());
+    if (arrow[idxArrow].input(player1.getIsPlayer1()) && (gameTimeTotal.asMilliseconds() - lastArrowTime.asMilliseconds() > 1000 / arrow[idxArrow].getFireRate())) {
+      arrow[idxArrow].shoot(bow.getPosition(), bow.getDirection());
+      idxArrow ++;
+      if (idxArrow > 99) {
+        idxArrow = 0;
+      }
+      lastArrowTime = gameTimeTotal;
+    }
+    if (blade[idxBlade].input(player2.getIsPlayer1()) && (gameTimeTotal.asMilliseconds() - lastBladeTime.asMilliseconds() > 1000 / blade[idxBlade].getFireRate())) {
+      blade[idxBlade].shoot(katana.getPosition(), katana.getDirection());
+      idxBlade ++;
+      if (idxBlade > 99) {
+        idxBlade = 0;
+      }
+      lastBladeTime = gameTimeTotal;
+    }
   }
 }

@@ -231,6 +231,87 @@ src/Player.cpp.s:
 	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Player.cpp.s
 .PHONY : src/Player.cpp.s
 
+src/Projectile.o: src/Projectile.cpp.o
+
+.PHONY : src/Projectile.o
+
+# target to build an object file
+src/Projectile.cpp.o:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Projectile.cpp.o
+.PHONY : src/Projectile.cpp.o
+
+src/Projectile.i: src/Projectile.cpp.i
+
+.PHONY : src/Projectile.i
+
+# target to preprocess a source file
+src/Projectile.cpp.i:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Projectile.cpp.i
+.PHONY : src/Projectile.cpp.i
+
+src/Projectile.s: src/Projectile.cpp.s
+
+.PHONY : src/Projectile.s
+
+# target to generate assembly for a file
+src/Projectile.cpp.s:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Projectile.cpp.s
+.PHONY : src/Projectile.cpp.s
+
+src/Projectile_Arrow.o: src/Projectile_Arrow.cpp.o
+
+.PHONY : src/Projectile_Arrow.o
+
+# target to build an object file
+src/Projectile_Arrow.cpp.o:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Projectile_Arrow.cpp.o
+.PHONY : src/Projectile_Arrow.cpp.o
+
+src/Projectile_Arrow.i: src/Projectile_Arrow.cpp.i
+
+.PHONY : src/Projectile_Arrow.i
+
+# target to preprocess a source file
+src/Projectile_Arrow.cpp.i:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Projectile_Arrow.cpp.i
+.PHONY : src/Projectile_Arrow.cpp.i
+
+src/Projectile_Arrow.s: src/Projectile_Arrow.cpp.s
+
+.PHONY : src/Projectile_Arrow.s
+
+# target to generate assembly for a file
+src/Projectile_Arrow.cpp.s:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Projectile_Arrow.cpp.s
+.PHONY : src/Projectile_Arrow.cpp.s
+
+src/Projectile_Blade.o: src/Projectile_Blade.cpp.o
+
+.PHONY : src/Projectile_Blade.o
+
+# target to build an object file
+src/Projectile_Blade.cpp.o:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Projectile_Blade.cpp.o
+.PHONY : src/Projectile_Blade.cpp.o
+
+src/Projectile_Blade.i: src/Projectile_Blade.cpp.i
+
+.PHONY : src/Projectile_Blade.i
+
+# target to preprocess a source file
+src/Projectile_Blade.cpp.i:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Projectile_Blade.cpp.i
+.PHONY : src/Projectile_Blade.cpp.i
+
+src/Projectile_Blade.s: src/Projectile_Blade.cpp.s
+
+.PHONY : src/Projectile_Blade.s
+
+# target to generate assembly for a file
+src/Projectile_Blade.cpp.s:
+	$(MAKE) -f CMakeFiles/Me2D.dir/build.make CMakeFiles/Me2D.dir/src/Projectile_Blade.cpp.s
+.PHONY : src/Projectile_Blade.cpp.s
+
 src/TextureHolder.o: src/TextureHolder.cpp.o
 
 .PHONY : src/TextureHolder.o
@@ -441,6 +522,15 @@ help:
 	@echo "... src/Player.o"
 	@echo "... src/Player.i"
 	@echo "... src/Player.s"
+	@echo "... src/Projectile.o"
+	@echo "... src/Projectile.i"
+	@echo "... src/Projectile.s"
+	@echo "... src/Projectile_Arrow.o"
+	@echo "... src/Projectile_Arrow.i"
+	@echo "... src/Projectile_Arrow.s"
+	@echo "... src/Projectile_Blade.o"
+	@echo "... src/Projectile_Blade.i"
+	@echo "... src/Projectile_Blade.s"
 	@echo "... src/TextureHolder.o"
 	@echo "... src/TextureHolder.i"
 	@echo "... src/TextureHolder.s"

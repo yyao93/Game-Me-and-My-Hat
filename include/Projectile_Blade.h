@@ -6,6 +6,7 @@
 using namespace sf;
 
 class Projectile_Blade: public Projectile{
+public:
   Projectile_Blade();
 };
 

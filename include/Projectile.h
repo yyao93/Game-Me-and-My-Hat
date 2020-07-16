@@ -9,15 +9,18 @@ class Projectile{
 protected:
   Sprite pSprite;
   Vector2f oldPos, pPos, pDir;
-  float pSpeed, pRange;
-  bool isFired;
+  float pSpeed, pRange, pFireRate;
+  bool isInFlight;
 public:
-  void virtual spawn(Vector2f pPos, Vector2f pDir);
+  void shoot(Vector2f pPos, Vector2f pDir);
+  void stop() {isInFlight = false;};
+  bool getIsInFlight() {return isInFlight;};
+  float getFireRate() {return pFireRate;};
   Vector2f getOrigin();
   Sprite getSprite() {return pSprite;};
   Vector2f getPosition() {return pPos;};
   Vector2f getDirection() {return pDir;};
-  void input(bool isPlayer1);
+  bool input(bool isPlayer1);
   void update(float elapsedTime);
   void draw(RenderWindow _window_);
 };
