@@ -6,17 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/yianyao/Desktop/Game-Me2D/include/Projectile.h
+/Users/yianyao/Desktop/Game-Me2D/include/Player.h
 SFML/Graphics.hpp
 -
-
-/Users/yianyao/Desktop/Game-Me2D/include/Projectile_Arrow.h
-Projectile.h
-/Users/yianyao/Desktop/Game-Me2D/include/Projectile.h
-
-/Users/yianyao/Desktop/Game-Me2D/include/Projectile_Blade.h
-Projectile.h
-/Users/yianyao/Desktop/Game-Me2D/include/Projectile.h
+Weapon_Bow.h
+/Users/yianyao/Desktop/Game-Me2D/include/Weapon_Bow.h
+Weapon_Katana.h
+/Users/yianyao/Desktop/Game-Me2D/include/Weapon_Katana.h
 
 /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
 SFML/Graphics.hpp
@@ -24,23 +20,29 @@ SFML/Graphics.hpp
 map
 -
 
+/Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
+SFML/Graphics.hpp
+-
+
+/Users/yianyao/Desktop/Game-Me2D/include/Weapon_Bow.h
+Weapon.h
+/Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
+
+/Users/yianyao/Desktop/Game-Me2D/include/Weapon_Katana.h
+Weapon.h
+/Users/yianyao/Desktop/Game-Me2D/include/Weapon.h
+
 /Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
 stdlib.h
 -
 iostream
 -
 
-/Users/yianyao/Desktop/Game-Me2D/src/Projectile_Arrow.cpp
-../include/Projectile_Arrow.h
-/Users/yianyao/Desktop/Game-Me2D/include/Projectile_Arrow.h
-../include/TextureHolder.h
-/Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
-../include/fullpath.h
-/Users/yianyao/Desktop/Game-Me2D/include/fullpath.h
-
-/Users/yianyao/Desktop/Game-Me2D/src/Projectile_Blade.cpp
-../include/Projectile_Blade.h
-/Users/yianyao/Desktop/Game-Me2D/include/Projectile_Blade.h
+/Users/yianyao/Desktop/Game-Me2D/src/Player.cpp
+cmath
+-
+../include/Player.h
+/Users/yianyao/Desktop/Game-Me2D/include/Player.h
 ../include/TextureHolder.h
 /Users/yianyao/Desktop/Game-Me2D/include/TextureHolder.h
 ../include/fullpath.h
