@@ -12,7 +12,7 @@ I am planning to use C++ wih SFML for this project, and the first step is to hav
 
 ## Control:
 - Toggle Split Screen: E
-- Player1: movement: WASD, sliding: Num2, shoot: Num1
+- Player1: movement: WASD, sliding: k, shoot: j
 - Player2: movement: UpDownLeftRight, sliding: ], shoot: [
 
 ## Ideas:
@@ -36,7 +36,9 @@ A 2-D creature who loves hats(hence the title). The creature lives in a 2-D surf
 - add accelaration to make the movement smooth
 - randomly generalized background
 - player to 2 sub class
-- bullet class(unfinished)
+- collision detection
+- health for players
+- hud display
 - polish the code
 
 

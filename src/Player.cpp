@@ -25,7 +25,7 @@ Vector2f Player::getCenter() {
 
 void Player::input() {
   if (isPlayer1) {
-    isSliding = Keyboard::isKeyPressed(Keyboard::Num2) ? true : false;
+    isSliding = Keyboard::isKeyPressed(Keyboard::K) ? true : false;
     if (!isSliding) {
       isUp = Keyboard::isKeyPressed(Keyboard::W) ? true : false;
       isLeft = Keyboard::isKeyPressed(Keyboard::A) ? true : false;
