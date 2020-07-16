@@ -7,13 +7,13 @@ I am planning to use C++ wih SFML for this project, and the first step is to hav
 
 # How to play:
 ## Movement: 
-### normal UpDownLeftRight
-### Sliding: in the sliding mode, the player will keep moving along a direction, and the controls for the direction now becomes the direction of the weapon.
+- normal UpDownLeftRight
+- Sliding: in the sliding mode, the player will keep moving along a direction, and the controls for the direction now becomes the direction of the weapon.
 
 ## Control:
-### Toggle Split Screen: E
-### Player1: movement: WASD, sliding: Num2, shoot: Num1
-### Player2: movement: UpDownLeftRight, sliding: ], shoot: [
+- Toggle Split Screen: E
+- Player1: movement: WASD, sliding: Num2, shoot: Num1
+- Player2: movement: UpDownLeftRight, sliding: ], shoot: [
 
 ## Ideas:
 A 2-D creature who loves hats(hence the title). The creature lives in a 2-D surface, it is shown on the screen by its hat. 
@@ -36,9 +36,8 @@ A 2-D creature who loves hats(hence the title). The creature lives in a 2-D surf
 - add accelaration to make the movement smooth
 - randomly generalized background
 - player to 2 sub class
-- player.isMoving
-- default direction of weapon while sliding
-- bullet class
+- bullet class(unfinished)
+- polish the code
 
 
 

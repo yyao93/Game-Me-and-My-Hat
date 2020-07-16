@@ -32,10 +32,14 @@ void Weapon::update(Vector2f pos, Vector2f dir, bool isSliding) {
     wDir = dir;
   } else {
     wDir = Vector2f(0, 0);
-    if (isRight) {wDir.x++;}
-    if (isLeft) {wDir.x--;}
-    if (isUp) {wDir.y++;}
-    if (isDown) {wDir.y--;}
+    if (isRight || isLeft || isUp || isDown) {
+      if (isRight) {wDir.x++;}
+      if (isLeft) {wDir.x--;}
+      if (isUp) {wDir.y++;}
+      if (isDown) {wDir.y--;}
+    } else {
+      wDir = dir;
+    }
   }
   wSprite.setPosition(wPos);
   wSprite.setRotation(180 * (atan2(wDir.x, wDir.y)) / M_PI);

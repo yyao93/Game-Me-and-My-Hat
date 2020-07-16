@@ -26,21 +26,26 @@ Vector2f Player::getCenter() {
 void Player::input() {
   if (isPlayer1) {
     isSliding = Keyboard::isKeyPressed(Keyboard::Num2) ? true : false;
-    isUp = Keyboard::isKeyPressed(Keyboard::W) ? true : false;
-    isLeft = Keyboard::isKeyPressed(Keyboard::A) ? true : false;
-    isDown = Keyboard::isKeyPressed(Keyboard::S) ? true : false;
-    isRight = Keyboard::isKeyPressed(Keyboard::D) ? true : false;
+    if (!isSliding) {
+      isUp = Keyboard::isKeyPressed(Keyboard::W) ? true : false;
+      isLeft = Keyboard::isKeyPressed(Keyboard::A) ? true : false;
+      isDown = Keyboard::isKeyPressed(Keyboard::S) ? true : false;
+      isRight = Keyboard::isKeyPressed(Keyboard::D) ? true : false;
+    }
   } else {
     isSliding = Keyboard::isKeyPressed(Keyboard::RBracket) ? true : false;
-    isUp = Keyboard::isKeyPressed(Keyboard::Up) ? true : false;
-    isLeft = Keyboard::isKeyPressed(Keyboard::Left) ? true : false;
-    isDown = Keyboard::isKeyPressed(Keyboard::Down) ? true : false;
-    isRight = Keyboard::isKeyPressed(Keyboard::Right) ? true : false;
+    if (!isSliding) {
+      isUp = Keyboard::isKeyPressed(Keyboard::Up) ? true : false;
+      isLeft = Keyboard::isKeyPressed(Keyboard::Left) ? true : false;
+      isDown = Keyboard::isKeyPressed(Keyboard::Down) ? true : false;
+      isRight = Keyboard::isKeyPressed(Keyboard::Right) ? true : false;
+    }
   }
+  isMoving = isUp || isDown || isLeft || isRight;
 }
 
 void Player::update(float elapsedTime) {
-  if (isSliding) {
+  if (isSliding && isMoving) {
     pPos.x += pSpeed * elapsedTime * pDir.x;
     pPos.y -= pSpeed * elapsedTime * pDir.y;
   } else {

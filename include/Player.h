@@ -10,7 +10,7 @@ using namespace sf;
 class Player {
 private:
   Sprite pSprite;
-  bool isLeft, isRight, isUp, isDown, isPlayer1, isSliding;
+  bool isLeft, isRight, isUp, isDown, isPlayer1, isSliding, isMoving;
   float pSpeed;
   Vector2f pPos, pDir;
 public:
