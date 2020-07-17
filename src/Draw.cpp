@@ -5,16 +5,22 @@ void Engine::draw() {
   if (!isScreenSplited) {
     window.setView(mainView);
     window.draw(backgroundSprite);
-    window.draw(player1.getSprite());
-    window.draw(player2.getSprite());
-    window.draw(bow.getSprite());
-    window.draw(katana.getSprite());
-    for (int i = 0; i < 100; i++) {
-      if (arrow[i].getIsInFlight()) {
-        window.draw(arrow[i].getSprite());
+    if (player1.getIsAlive()) {
+      window.draw(player1.getSprite());
+      window.draw(bow.getSprite());
+      for (int i = 0; i < 100; i++) {
+        if (arrow[i].getIsInFlight()) {
+          window.draw(arrow[i].getSprite());
+        }
       }
-      if (blade[i].getIsInFlight()) {
-        window.draw(blade[i].getSprite());
+    }
+    if (player2.getIsAlive()) {
+      window.draw(player2.getSprite());
+      window.draw(katana.getSprite());
+      for (int i = 0; i < 100; i++) {
+        if (blade[i].getIsInFlight()) {
+          window.draw(blade[i].getSprite());
+        }
       }
     }
   }
@@ -22,31 +28,43 @@ void Engine::draw() {
     // Left side
     window.setView(leftView);
     window.draw(backgroundSprite);
-    window.draw(player1.getSprite());
-    window.draw(player2.getSprite());
-    window.draw(bow.getSprite());
-    window.draw(katana.getSprite());
-    for (int i = 0; i < 100; i++) {
-      if (arrow[i].getIsInFlight()) {
-        window.draw(arrow[i].getSprite());
+    if (player1.getIsAlive()) {
+      window.draw(player1.getSprite());
+      window.draw(bow.getSprite());
+      for (int i = 0; i < 100; i++) {
+        if (arrow[i].getIsInFlight()) {
+          window.draw(arrow[i].getSprite());
+        }
       }
-      if (blade[i].getIsInFlight()) {
-        window.draw(blade[i].getSprite());
+    }
+    if (player2.getIsAlive()) {
+      window.draw(player2.getSprite());
+      window.draw(katana.getSprite());
+      for (int i = 0; i < 100; i++) {
+        if (blade[i].getIsInFlight()) {
+          window.draw(blade[i].getSprite());
+        }
       }
     }
     // Right side
     window.setView(rightView);
     window.draw(backgroundSprite);
-    window.draw(player1.getSprite());
-    window.draw(player2.getSprite());
-    window.draw(bow.getSprite());
-    window.draw(katana.getSprite());
-    for (int i = 0; i < 100; i++) {
-      if (arrow[i].getIsInFlight()) {
-        window.draw(arrow[i].getSprite());
+    if (player1.getIsAlive()) {
+      window.draw(player1.getSprite());
+      window.draw(bow.getSprite());
+      for (int i = 0; i < 100; i++) {
+        if (arrow[i].getIsInFlight()) {
+          window.draw(arrow[i].getSprite());
+        }
       }
-      if (blade[i].getIsInFlight()) {
-        window.draw(blade[i].getSprite());
+    }
+    if (player2.getIsAlive()) {
+      window.draw(player2.getSprite());
+      window.draw(katana.getSprite());
+      for (int i = 0; i < 100; i++) {
+        if (blade[i].getIsInFlight()) {
+          window.draw(blade[i].getSprite());
+        }
       }
     }
   }

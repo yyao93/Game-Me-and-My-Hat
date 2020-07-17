@@ -11,6 +11,8 @@ void Player::spawn(Vector2f startPos) {
   pSprite.setPosition(pPos);
   pSprite.setOrigin(this -> getOrigin());
   pSpeed = 400;
+  isAlive = true;
+  pHealth = 5;
   //isLeft = isRight = isUp = isDown = false;
 }
 
@@ -72,6 +74,14 @@ void Player::update(float elapsedTime) {
   }
   pSprite.setPosition(pPos);
   pSprite.setRotation(180 * (atan2(pDir.x, pDir.y)) / M_PI);
+  // health
+  if (isHit) {
+    pHealth--;
+    isHit = false;
+    if (pHealth <= 0) {
+      isAlive = false;
+    }
+  }
 }
 
 void Player::draw(RenderWindow _window_) {

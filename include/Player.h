@@ -10,8 +10,8 @@ using namespace sf;
 class Player {
 private:
   Sprite pSprite;
-  bool isLeft, isRight, isUp, isDown, isPlayer1, isSliding, isMoving;
-  float pSpeed;
+  bool isLeft, isRight, isUp, isDown, isPlayer1, isSliding, isMoving, isAlive, isHit;
+  float pSpeed, pHealth;
   Vector2f pPos, pDir;
 public:
   Player() {};
@@ -19,11 +19,14 @@ public:
   void spawn(Vector2f startPos);
   Vector2f getOrigin();
   Vector2f getCenter();
+  FloatRect getBoundary() {return pSprite.getGlobalBounds();};
   Sprite getSprite() {return pSprite;};
   bool getIsPlayer1() {return isPlayer1;};
   bool getIsSliding() {return isSliding;};
+  bool getIsAlive() {return isAlive;};
   Vector2f getPosition() {return pPos;};
   Vector2f getDirection() {return pDir;};
+  void setIsHit() {isHit = true;};
   void input();
   void update(float elapsedTime);
   void draw(RenderWindow _window_);

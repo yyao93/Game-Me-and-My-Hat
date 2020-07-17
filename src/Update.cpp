@@ -14,6 +14,17 @@ void Engine::update(float dtAsSeconds) {
       arrow[i].update(dtAsSeconds);
       blade[i].update(dtAsSeconds);
     }
+    // collision detection
+    for (int i = 0; i < 100; i++) {
+      if (arrow[i].getIsInFlight() && arrow[i].getBoundary().intersects(player2.getBoundary())) {
+        player2.setIsHit();
+        arrow[i].stop();
+      }
+      if (blade[i].getIsInFlight() && blade[i].getBoundary().intersects(player1.getBoundary())) {
+        player1.setIsHit();
+        blade[i].stop();
+      }
+    }
   }
   if (isScreenSplited) {
     leftView.setCenter(player1.getCenter());

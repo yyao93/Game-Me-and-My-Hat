@@ -22,8 +22,6 @@ private:
   Projectile_Blade blade[100];
   int idxArrow, idxBlade;
   Time lastArrowTime, lastBladeTime;
-
-
   bool isPlaying, isStarting, isScreenSplited;
   // The following may change
   RenderWindow window;

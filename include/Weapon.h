@@ -16,6 +16,7 @@ public:
   Sprite getSprite() {return wSprite;};
   Vector2f getPosition() {return wPos;};
   Vector2f getDirection() {return wDir;};
+  FloatRect getBoundary() {return wSprite.getGlobalBounds();};
   void input(bool isPlayer1);
   void update(Vector2f pos, Vector2f dir, bool isSliding);
   void draw(RenderWindow _window_);

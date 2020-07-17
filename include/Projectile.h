@@ -18,6 +18,7 @@ public:
   float getFireRate() {return pFireRate;};
   Vector2f getOrigin();
   Sprite getSprite() {return pSprite;};
+  FloatRect getBoundary() {return pSprite.getGlobalBounds();};
   Vector2f getPosition() {return pPos;};
   Vector2f getDirection() {return pDir;};
   bool input(bool isPlayer1);
