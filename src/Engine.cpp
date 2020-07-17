@@ -16,7 +16,9 @@ Engine::Engine() {
   // Initialize the views
   mainView.setSize(resolution);
   leftView.setViewport(FloatRect(0.001f, 0.001f, 0.498f, 0.998f));
+  leftView.zoom(1.4f);
   rightView.setViewport(FloatRect(0.5f, 0.001f, 0.499f, 0.998f));
+  rightView.zoom(1.4f);
   // Now set m_BackgroundSprite, m_BackgroundTexture
   // I need to change the following soon
   backgroundSprite.setTexture(TextureHolder::GetTexture(full_path("../resources/graphics/background.png")));

@@ -8,6 +8,7 @@ void Engine::draw() {
     if (player1.getIsAlive()) {
       window.draw(player1.getSprite());
       window.draw(bow.getSprite());
+      window.draw(player1.getHealthBar());
       for (int i = 0; i < 100; i++) {
         if (arrow[i].getIsInFlight()) {
           window.draw(arrow[i].getSprite());
@@ -17,6 +18,7 @@ void Engine::draw() {
     if (player2.getIsAlive()) {
       window.draw(player2.getSprite());
       window.draw(katana.getSprite());
+      window.draw(player2.getHealthBar());
       for (int i = 0; i < 100; i++) {
         if (blade[i].getIsInFlight()) {
           window.draw(blade[i].getSprite());
@@ -31,6 +33,7 @@ void Engine::draw() {
     if (player1.getIsAlive()) {
       window.draw(player1.getSprite());
       window.draw(bow.getSprite());
+      window.draw(player1.getHealthBar());
       for (int i = 0; i < 100; i++) {
         if (arrow[i].getIsInFlight()) {
           window.draw(arrow[i].getSprite());
@@ -40,6 +43,7 @@ void Engine::draw() {
     if (player2.getIsAlive()) {
       window.draw(player2.getSprite());
       window.draw(katana.getSprite());
+      window.draw(player2.getHealthBar());
       for (int i = 0; i < 100; i++) {
         if (blade[i].getIsInFlight()) {
           window.draw(blade[i].getSprite());
@@ -52,6 +56,7 @@ void Engine::draw() {
     if (player1.getIsAlive()) {
       window.draw(player1.getSprite());
       window.draw(bow.getSprite());
+      window.draw(player1.getHealthBar());
       for (int i = 0; i < 100; i++) {
         if (arrow[i].getIsInFlight()) {
           window.draw(arrow[i].getSprite());
@@ -61,6 +66,7 @@ void Engine::draw() {
     if (player2.getIsAlive()) {
       window.draw(player2.getSprite());
       window.draw(katana.getSprite());
+      window.draw(player2.getHealthBar());
       for (int i = 0; i < 100; i++) {
         if (blade[i].getIsInFlight()) {
           window.draw(blade[i].getSprite());

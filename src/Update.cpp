@@ -2,8 +2,8 @@
 
 void Engine::update(float dtAsSeconds) {
   if (isStarting) {
-    player1.spawn(Vector2f(1000, 800));
-    player2.spawn(Vector2f(1160, 800));
+    player1.spawn(Vector2f(2500, 2350));
+    player2.spawn(Vector2f(2500, 2650));
   }
   if (isPlaying) {
     player1.update(dtAsSeconds);

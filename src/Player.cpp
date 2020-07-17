@@ -14,6 +14,11 @@ void Player::spawn(Vector2f startPos) {
   isAlive = true;
   pHealth = 5;
   //isLeft = isRight = isUp = isDown = false;
+  pHealthBarHeight = 20;
+  pHealthBar.setSize(Vector2f(pHealth * pHealthBarHeight, pHealthBarHeight));
+  pHealthBar.setFillColor(Color(255, pHealth * 20, pHealth * 20));
+  //pHealthBar.setFillColor(Color::Red);
+  pHealthBar.setPosition(startPos + Vector2f(- pHealth * pHealthBarHeight / 2, 90));
 }
 
 Vector2f Player::getOrigin() {
@@ -72,8 +77,19 @@ void Player::update(float elapsedTime) {
       pDir.y--;
     }
   }
+  if (pPos.x < 0)
+    pPos.x = 0;
+  if (pPos.x > 5000)
+    pPos.x = 5000;
+  if (pPos.y < 0)
+    pPos.y = 0;
+  if (pPos.y > 5000)
+    pPos.y = 5000;
   pSprite.setPosition(pPos);
   pSprite.setRotation(180 * (atan2(pDir.x, pDir.y)) / M_PI);
+  pHealthBar.setSize(Vector2f(pHealth * pHealthBarHeight, pHealthBarHeight));
+  pHealthBar.setFillColor(Color(255, pHealth * 30, pHealth * 30));
+  pHealthBar.setPosition(pPos + Vector2f(- pHealth * pHealthBarHeight / 2, 90));
   // health
   if (isHit) {
     pHealth--;

@@ -10,8 +10,8 @@ void Engine::input() {
       }
       // Start
       if (Keyboard::isKeyPressed(Keyboard::Return)) {
-        isPlaying = true;
-        isStarting = false;
+        isPlaying = !isPlaying;
+        isStarting = !isStarting;
         isScreenSplited = false;
       }
       // Switch between full and split screen

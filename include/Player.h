@@ -10,8 +10,9 @@ using namespace sf;
 class Player {
 private:
   Sprite pSprite;
+  RectangleShape pHealthBar;
   bool isLeft, isRight, isUp, isDown, isPlayer1, isSliding, isMoving, isAlive, isHit;
-  float pSpeed, pHealth;
+  float pSpeed, pHealth, pHealthBarHeight;
   Vector2f pPos, pDir;
 public:
   Player() {};
@@ -26,6 +27,8 @@ public:
   bool getIsAlive() {return isAlive;};
   Vector2f getPosition() {return pPos;};
   Vector2f getDirection() {return pDir;};
+  float getHealth() {return pHealth;};
+  RectangleShape getHealthBar() {return pHealthBar;};
   void setIsHit() {isHit = true;};
   void input();
   void update(float elapsedTime);
