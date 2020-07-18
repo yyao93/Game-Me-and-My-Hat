@@ -57,9 +57,22 @@ include CMakeFiles/Me2D.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Me2D.dir/flags.make
 
+CMakeFiles/Me2D.dir/src/Block.cpp.o: CMakeFiles/Me2D.dir/flags.make
+CMakeFiles/Me2D.dir/src/Block.cpp.o: ../src/Block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Me2D.dir/src/Block.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Me2D.dir/src/Block.cpp.o -c /Users/yianyao/Desktop/Game-Me2D/src/Block.cpp
+
+CMakeFiles/Me2D.dir/src/Block.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Me2D.dir/src/Block.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yianyao/Desktop/Game-Me2D/src/Block.cpp > CMakeFiles/Me2D.dir/src/Block.cpp.i
+
+CMakeFiles/Me2D.dir/src/Block.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Me2D.dir/src/Block.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yianyao/Desktop/Game-Me2D/src/Block.cpp -o CMakeFiles/Me2D.dir/src/Block.cpp.s
+
 CMakeFiles/Me2D.dir/src/Draw.cpp.o: CMakeFiles/Me2D.dir/flags.make
 CMakeFiles/Me2D.dir/src/Draw.cpp.o: ../src/Draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Me2D.dir/src/Draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Me2D.dir/src/Draw.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Me2D.dir/src/Draw.cpp.o -c /Users/yianyao/Desktop/Game-Me2D/src/Draw.cpp
 
 CMakeFiles/Me2D.dir/src/Draw.cpp.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/Me2D.dir/src/Draw.cpp.s: cmake_force
 
 CMakeFiles/Me2D.dir/src/Engine.cpp.o: CMakeFiles/Me2D.dir/flags.make
 CMakeFiles/Me2D.dir/src/Engine.cpp.o: ../src/Engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Me2D.dir/src/Engine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Me2D.dir/src/Engine.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Me2D.dir/src/Engine.cpp.o -c /Users/yianyao/Desktop/Game-Me2D/src/Engine.cpp
 
 CMakeFiles/Me2D.dir/src/Engine.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/Me2D.dir/src/Engine.cpp.s: cmake_force
 
 CMakeFiles/Me2D.dir/src/Input.cpp.o: CMakeFiles/Me2D.dir/flags.make
 CMakeFiles/Me2D.dir/src/Input.cpp.o: ../src/Input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Me2D.dir/src/Input.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Me2D.dir/src/Input.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Me2D.dir/src/Input.cpp.o -c /Users/yianyao/Desktop/Game-Me2D/src/Input.cpp
 
 CMakeFiles/Me2D.dir/src/Input.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/Me2D.dir/src/Input.cpp.s: cmake_force
 
 CMakeFiles/Me2D.dir/src/Player.cpp.o: CMakeFiles/Me2D.dir/flags.make
 CMakeFiles/Me2D.dir/src/Player.cpp.o: ../src/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Me2D.dir/src/Player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Me2D.dir/src/Player.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Me2D.dir/src/Player.cpp.o -c /Users/yianyao/Desktop/Game-Me2D/src/Player.cpp
 
 CMakeFiles/Me2D.dir/src/Player.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/Me2D.dir/src/Player.cpp.s: cmake_force
 
 CMakeFiles/Me2D.dir/src/Projectile.cpp.o: CMakeFiles/Me2D.dir/flags.make
 CMakeFiles/Me2D.dir/src/Projectile.cpp.o: ../src/Projectile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Me2D.dir/src/Projectile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Me2D.dir/src/Projectile.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Me2D.dir/src/Projectile.cpp.o -c /Users/yianyao/Desktop/Game-Me2D/src/Projectile.cpp
 
 CMakeFiles/Me2D.dir/src/Projectile.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/Me2D.dir/src/Projectile.cpp.s: cmake_force
 
 CMakeFiles/Me2D.dir/src/Projectile_Arrow.cpp.o: CMakeFiles/Me2D.dir/flags.make
 CMakeFiles/Me2D.dir/src/Projectile_Arrow.cpp.o: ../src/Projectile_Arrow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Me2D.dir/src/Projectile_Arrow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Me2D.dir/src/Projectile_Arrow.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Me2D.dir/src/Projectile_Arrow.cpp.o -c /Users/yianyao/Desktop/Game-Me2D/src/Projectile_Arrow.cpp
 
 CMakeFiles/Me2D.dir/src/Projectile_Arrow.cpp.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/Me2D.dir/src/Projectile_Arrow.cpp.s: cmake_force
 
 CMakeFiles/Me2D.dir/src/Projectile_Blade.cpp.o: CMakeFiles/Me2D.dir/flags.make
 CMakeFiles/Me2D.dir/src/Projectile_Blade.cpp.o: ../src/Projectile_Blade.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Me2D.dir/src/Projectile_Blade.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Me2D.dir/src/Projectile_Blade.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Me2D.dir/src/Projectile_Blade.cpp.o -c /Users/yianyao/Desktop/Game-Me2D/src/Projectile_Blade.cpp
 
 CMakeFiles/Me2D.dir/src/Projectile_Blade.cpp.i: cmake_force
@@ -150,7 +163,7 @@ CMakeFiles/Me2D.dir/src/Projectile_Blade.cpp.s: cmake_force
 
 CMakeFiles/Me2D.dir/src/TextureHolder.cpp.o: CMakeFiles/Me2D.dir/flags.make
 CMakeFiles/Me2D.dir/src/TextureHolder.cpp.o: ../src/TextureHolder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Me2D.dir/src/TextureHolder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Me2D.dir/src/TextureHolder.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Me2D.dir/src/TextureHolder.cpp.o -c /Users/yianyao/Desktop/Game-Me2D/src/TextureHolder.cpp
 
 CMakeFiles/Me2D.dir/src/TextureHolder.cpp.i: cmake_force
@@ -163,7 +176,7 @@ CMakeFiles/Me2D.dir/src/TextureHolder.cpp.s: cmake_force
 
 CMakeFiles/Me2D.dir/src/Update.cpp.o: CMakeFiles/Me2D.dir/flags.make
 CMakeFiles/Me2D.dir/src/Update.cpp.o: ../src/Update.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Me2D.dir/src/Update.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Me2D.dir/src/Update.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Me2D.dir/src/Update.cpp.o -c /Users/yianyao/Desktop/Game-Me2D/src/Update.cpp
 
 CMakeFiles/Me2D.dir/src/Update.cpp.i: cmake_force
@@ -176,7 +189,7 @@ CMakeFiles/Me2D.dir/src/Update.cpp.s: cmake_force
 
 CMakeFiles/Me2D.dir/src/Weapon.cpp.o: CMakeFiles/Me2D.dir/flags.make
 CMakeFiles/Me2D.dir/src/Weapon.cpp.o: ../src/Weapon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Me2D.dir/src/Weapon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Me2D.dir/src/Weapon.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Me2D.dir/src/Weapon.cpp.o -c /Users/yianyao/Desktop/Game-Me2D/src/Weapon.cpp
 
 CMakeFiles/Me2D.dir/src/Weapon.cpp.i: cmake_force
@@ -189,7 +202,7 @@ CMakeFiles/Me2D.dir/src/Weapon.cpp.s: cmake_force
 
 CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o: CMakeFiles/Me2D.dir/flags.make
 CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o: ../src/Weapon_Bow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.o -c /Users/yianyao/Desktop/Game-Me2D/src/Weapon_Bow.cpp
 
 CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.i: cmake_force
@@ -202,7 +215,7 @@ CMakeFiles/Me2D.dir/src/Weapon_Bow.cpp.s: cmake_force
 
 CMakeFiles/Me2D.dir/src/Weapon_Kanata.cpp.o: CMakeFiles/Me2D.dir/flags.make
 CMakeFiles/Me2D.dir/src/Weapon_Kanata.cpp.o: ../src/Weapon_Kanata.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Me2D.dir/src/Weapon_Kanata.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Me2D.dir/src/Weapon_Kanata.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Me2D.dir/src/Weapon_Kanata.cpp.o -c /Users/yianyao/Desktop/Game-Me2D/src/Weapon_Kanata.cpp
 
 CMakeFiles/Me2D.dir/src/Weapon_Kanata.cpp.i: cmake_force
@@ -215,7 +228,7 @@ CMakeFiles/Me2D.dir/src/Weapon_Kanata.cpp.s: cmake_force
 
 CMakeFiles/Me2D.dir/src/fullpath.cpp.o: CMakeFiles/Me2D.dir/flags.make
 CMakeFiles/Me2D.dir/src/fullpath.cpp.o: ../src/fullpath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Me2D.dir/src/fullpath.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Me2D.dir/src/fullpath.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Me2D.dir/src/fullpath.cpp.o -c /Users/yianyao/Desktop/Game-Me2D/src/fullpath.cpp
 
 CMakeFiles/Me2D.dir/src/fullpath.cpp.i: cmake_force
@@ -228,7 +241,7 @@ CMakeFiles/Me2D.dir/src/fullpath.cpp.s: cmake_force
 
 CMakeFiles/Me2D.dir/src/main.cpp.o: CMakeFiles/Me2D.dir/flags.make
 CMakeFiles/Me2D.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Me2D.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Me2D.dir/src/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Me2D.dir/src/main.cpp.o -c /Users/yianyao/Desktop/Game-Me2D/src/main.cpp
 
 CMakeFiles/Me2D.dir/src/main.cpp.i: cmake_force
@@ -241,6 +254,7 @@ CMakeFiles/Me2D.dir/src/main.cpp.s: cmake_force
 
 # Object files for target Me2D
 Me2D_OBJECTS = \
+"CMakeFiles/Me2D.dir/src/Block.cpp.o" \
 "CMakeFiles/Me2D.dir/src/Draw.cpp.o" \
 "CMakeFiles/Me2D.dir/src/Engine.cpp.o" \
 "CMakeFiles/Me2D.dir/src/Input.cpp.o" \
@@ -259,6 +273,7 @@ Me2D_OBJECTS = \
 # External object files for target Me2D
 Me2D_EXTERNAL_OBJECTS =
 
+Me2D: CMakeFiles/Me2D.dir/src/Block.cpp.o
 Me2D: CMakeFiles/Me2D.dir/src/Draw.cpp.o
 Me2D: CMakeFiles/Me2D.dir/src/Engine.cpp.o
 Me2D: CMakeFiles/Me2D.dir/src/Input.cpp.o
@@ -280,7 +295,7 @@ Me2D: /usr/local/lib/libsfml-network.2.5.1.dylib
 Me2D: /usr/local/lib/libsfml-audio.2.5.1.dylib
 Me2D: /usr/local/lib/libsfml-system.2.5.1.dylib
 Me2D: CMakeFiles/Me2D.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Me2D"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yianyao/Desktop/Game-Me2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Me2D"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Me2D.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

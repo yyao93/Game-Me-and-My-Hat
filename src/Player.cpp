@@ -8,17 +8,23 @@ void Player::spawn(Vector2f startPos) {
   pPos = startPos;
   pDir = Vector2f(0, 0);
   pSprite = isPlayer1 ? Sprite(TextureHolder::GetTexture(full_path("../resources/graphics/player_1.png"))) : Sprite(TextureHolder::GetTexture(full_path("../resources/graphics/player_2.png")));
+  blinkGap = isPlayer1 ? 5 : 3;
+  blinkSpeed = isPlayer1 ? 20 : 30;
+  lastBlinkTime = 0;
   pSprite.setPosition(pPos);
   pSprite.setOrigin(this -> getOrigin());
   pSpeed = 400;
   isAlive = true;
-  pHealth = 5;
+  pHealth = 10;
   //isLeft = isRight = isUp = isDown = false;
   pHealthBarHeight = 20;
   pHealthBar.setSize(Vector2f(pHealth * pHealthBarHeight, pHealthBarHeight));
-  pHealthBar.setFillColor(Color(255, pHealth * 20, pHealth * 20));
-  //pHealthBar.setFillColor(Color::Red);
+  pHealthBar.setFillColor(Color(255, pHealth * 10, pHealth * 20));
   pHealthBar.setPosition(startPos + Vector2f(- pHealth * pHealthBarHeight / 2, 90));
+  pBlink.setFillColor(Color::Black);
+  pBlink.setSize(Vector2f(pHealthBarHeight, pHealthBarHeight));
+  pBlink.setPosition(startPos);
+  //pHealthBar.setFillColor(Color::Red);
 }
 
 Vector2f Player::getOrigin() {
@@ -39,6 +45,11 @@ void Player::input() {
       isDown = Keyboard::isKeyPressed(Keyboard::S) ? true : false;
       isRight = Keyboard::isKeyPressed(Keyboard::D) ? true : false;
     }
+    if (canBlink) {
+      isBlinking = Keyboard::isKeyPressed(Keyboard::L) ? true : false;
+    } else {
+      isBlinking = false;
+    }
   } else {
     isSliding = Keyboard::isKeyPressed(Keyboard::RBracket) ? true : false;
     if (!isSliding) {
@@ -46,6 +57,11 @@ void Player::input() {
       isLeft = Keyboard::isKeyPressed(Keyboard::Left) ? true : false;
       isDown = Keyboard::isKeyPressed(Keyboard::Down) ? true : false;
       isRight = Keyboard::isKeyPressed(Keyboard::Right) ? true : false;
+    }
+    if (canBlink) {
+      isBlinking = Keyboard::isKeyPressed(Keyboard::Backslash) ? true : false;
+    } else {
+      isBlinking = false;
     }
   }
   isMoving = isUp || isDown || isLeft || isRight;
@@ -77,6 +93,17 @@ void Player::update(float elapsedTime) {
       pDir.y--;
     }
   }
+  lastBlinkTime += elapsedTime;
+  if (isBlinking) {
+    canBlink = false;
+    lastBlinkTime = 0;
+    pPos.x += blinkSpeed * pDir.x;
+    pPos.y -= blinkSpeed * pDir.y;
+  } else {
+    if (lastBlinkTime > blinkGap) {
+      canBlink = true;
+    }
+  }
   if (pPos.x < 0)
     pPos.x = 0;
   if (pPos.x > 5000)
@@ -88,8 +115,9 @@ void Player::update(float elapsedTime) {
   pSprite.setPosition(pPos);
   pSprite.setRotation(180 * (atan2(pDir.x, pDir.y)) / M_PI);
   pHealthBar.setSize(Vector2f(pHealth * pHealthBarHeight, pHealthBarHeight));
-  pHealthBar.setFillColor(Color(255, pHealth * 30, pHealth * 30));
+  pHealthBar.setFillColor(Color(255, pHealth * 10, pHealth * 20));
   pHealthBar.setPosition(pPos + Vector2f(- pHealth * pHealthBarHeight / 2, 90));
+  pBlink.setPosition(pPos);
   // health
   if (isHit) {
     pHealth--;

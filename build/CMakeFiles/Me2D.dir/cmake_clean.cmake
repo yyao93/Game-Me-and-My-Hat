@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Me2D.dir/src/Block.cpp.o"
   "CMakeFiles/Me2D.dir/src/Draw.cpp.o"
   "CMakeFiles/Me2D.dir/src/Engine.cpp.o"
   "CMakeFiles/Me2D.dir/src/Input.cpp.o"

@@ -8,6 +8,7 @@
 #include "Weapon_Katana.h"
 #include "Projectile_Arrow.h"
 #include "Projectile_Blade.h"
+#include "Block.h"
 #include "fullpath.h"
 
 using namespace sf;
@@ -20,6 +21,7 @@ private:
   Weapon_Katana katana;
   Projectile_Arrow arrow[100];
   Projectile_Blade blade[100];
+  Block brick[10];
   int idxArrow, idxBlade;
   Time lastArrowTime, lastBladeTime;
   bool isPlaying, isStarting, isScreenSplited;
