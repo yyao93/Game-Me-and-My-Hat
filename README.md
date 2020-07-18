@@ -9,11 +9,12 @@ I am planning to use C++ wih SFML for this project, and the first step is to hav
 ## Movement: 
 - normal UpDownLeftRight
 - Sliding: in the sliding mode, the player will keep moving along a direction, and the controls for the direction now becomes the direction of the weapon.
+- Blink: if the blink indicator is on (black square in the center of the player), one can blink a short distance in the current direction.
 
 ## Control:
 - Toggle Split Screen: E
-- Player1: movement: WASD, sliding: k, shoot: j
-- Player2: movement: UpDownLeftRight, sliding: ], shoot: [
+- Player1: movement: WASD, sliding: hold k, shoot: j, blink: L
+- Player2: movement: UpDownLeftRight, sliding: hold ], shoot: [, blink: \
 
 ## Ideas:
 A 2-D creature who loves hats(hence the title). The creature lives in a 2-D surface, it is shown on the screen by its hat. 
@@ -35,10 +36,8 @@ A 2-D creature who loves hats(hence the title). The creature lives in a 2-D surf
 ## TODOs:
 - add accelaration to make the movement smooth
 - randomly generalized background
+- several monsters
 - player to 2 sub class
-- collision detection
-- health for players
-- hud display
 - polish the code
 
 
